@@ -3,7 +3,16 @@
 @tailwind utilities;
 
 @layer components {
-    .btn {
-        @apply text-3xl bg-red-600
+    .maximum-width {
+        @apply max-w-[1400px] mx-auto px-4
     }
+
+    .btn-primary {
+        @apply p-2 text-white font-bold rounded-md bg-skuldent-blue border border-skuldent-blue hover:opacity-90 transition-colors
+    }
+
+    .btn-transparent {
+        @apply p-2 bg-transparent border border-skuldent-blue rounded-md font-bold hover:bg-skuldent-blue hover:text-white transition-colors
+    }
+
 }
