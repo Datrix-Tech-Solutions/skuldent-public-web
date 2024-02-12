@@ -1,8 +1,8 @@
 <template>
-    <div class="text-skuldent-blue font-dm-sans">
-        <div v-if="$route.path !== '/'">
-            <AppHeader></AppHeader>
-        </div>
+    <div class="text-skuldent-blue bg-neutral-100 font-dm-sans">
+        <!-- <div v-if="$route.path !== '/'"> -->
+        <AppHeader></AppHeader>
+        <!-- </div> -->
         <div class="">
             <slot></slot>
         </div>

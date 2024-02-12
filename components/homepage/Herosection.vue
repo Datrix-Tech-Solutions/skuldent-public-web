@@ -3,9 +3,9 @@
     <div class="bg-[url('~/assets/images/hero.jpg')] bg-cover bg-center relative">
         <div class="absolute bg-black/50 top-0 left-0 right-0 bottom-0"></div>
         <div class="relative">
-            <AppHeader></AppHeader>
+            <!-- <AppHeader></AppHeader> -->
             <section class="maximum-width">
-                <div class="flex py-28">
+                <div class="flex py-36">
                     <!-- Text -->
                     <div class="w-4/5">
                         <h1 class="font-bold text-8xl text-gray-20 text-white">

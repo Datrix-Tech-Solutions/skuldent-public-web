@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-transparent">
+    <div class="bg-white sticky top-0 z-20">
         <nav class="py-3">
             <div class="flex justify-between items-center maximum-width">
                 <!-- logo -->
@@ -36,7 +36,7 @@
 
 interface Links {
     name: string;
-    price: number;
+    to: string;
 }
 
 const links: Links[] = [
@@ -61,6 +61,6 @@ const links: Links[] = [
 
 <style scoped>
 .router-link-exact-active {
-    @apply font-bold underline underline-offset-8 decoration-[3px] decoration-skuldent-blue hover:decoration-skuldent-yellow
+    @apply font-bold underline underline-offset-8 decoration-[3px] hover:decoration-skuldent-yellow decoration-skuldent-yellow text-skuldent-yellow
 }
 </style>

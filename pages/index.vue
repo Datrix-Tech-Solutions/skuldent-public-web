@@ -34,15 +34,10 @@
                 </div>
 
                 <div class="my- bg-blue-faded py-14">
-                    <div class="grid grid-cols-4 gap-5 place-items-center  maximum-width">
-                        <UiFeatureCard />
-                        <UiFeatureCard />
-                        <UiFeatureCard />
-                        <UiFeatureCard />
-                        <UiFeatureCard />
-                        <UiFeatureCard />
-                        <UiFeatureCard />
-                        <UiFeatureCard />
+                    <div class="grid grid-cols-4 gap-5   maximum-width">
+                        <template v-for="feature in features" :key="feature.category.title">
+                            <UiFeatureCard :feature="feature.category" :clamp="true" />
+                        </template>
                     </div>
 
 
@@ -77,7 +72,8 @@
     </div>
 </template>
 
-<script setup lang="ts">
+<script setup >
+import { features } from '~/data/features'
 
 </script>
 
