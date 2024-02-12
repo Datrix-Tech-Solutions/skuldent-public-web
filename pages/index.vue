@@ -57,15 +57,7 @@
             </section>
 
             <section class="my-44 maximum-width">
-                <div class="max-w-[700px] mx-auto text-center ">
-                    <p>Skuldent simplifies school management, allowing educators
-                        to
-                        focus on what
-                        they do
-                        best - educating. Explore the benefits of streamlined administrative processes and enhanced
-                        communication within your school community.</p>
-                    <button class="btn-primary mt-5 px-4">Get Started</button>
-                </div>
+                <GetStarted />
             </section>
 
         </div>

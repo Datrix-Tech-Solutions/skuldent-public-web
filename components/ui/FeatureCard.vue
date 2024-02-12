@@ -5,7 +5,7 @@
         <div class="flex items-start" v-if="feature.icon">
 
             <div class=" rounded-md">
-                <UIcon name="i-heroicons-light-bulb " class="text-3xl text-skuldent-blue" />
+                <UIcon :name="`i-heroicons-${feature.icon}`" class="text-3xl text-skuldent-blue" dynamic />
             </div>
 
         </div>

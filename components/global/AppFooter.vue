@@ -2,7 +2,7 @@
     <div class="bg-skuldent-blue text-neutral-300 py-20">
         <div class="maximum-width flex gap-2">
             <div class="w-1/2">
-                <img src="~/assets/images/logo.png" alt="" class="max-w-[300px]">
+                <img src="~/assets/images/logo-white.png" alt="" class="max-w-[300px]">
                 <p class="text-skuldent-yellow text-4xl w-[400px] my-6 leading-[50px]">
                     Empower Your School with <span class="">Skuldent</span>
                 </p>

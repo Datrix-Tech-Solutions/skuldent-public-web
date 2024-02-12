@@ -41,7 +41,9 @@
                     <h2 class="text-4xl font-bold ">Explore Exlusive Features</h2>
                     <p class="text-neutral-500 my-5">Discover the comprehensive suite of features offered by Skuldent that
                         revolutionize school management.</p>
-                    <button class="btn-transparent px-4">See Features</button>
+                    <NuxtLink to="/features">
+                        <button class="btn-transparent px-4">See Features</button>
+                    </NuxtLink>
                 </div>
             </div>
             <div class="w-1/2">

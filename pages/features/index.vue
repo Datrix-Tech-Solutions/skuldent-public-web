@@ -22,15 +22,17 @@
                     <!-- Category -->
                     <div class="w-[50%]">
                         <div class="max-w-[600px] py-5 sticky top-20">
-                            <h2 class="text-4xl font-bold">{{ feature.category.title }}</h2>
-                            <p class="mt-3 mb-6">{{ feature.category.description }}</p>
+                            <h2 class="text-4xl font-bold"><span class="relative text-5xl">
+                                    <UIcon :name="`i-heroicons-${feature.category.icon}`" dynamic></UIcon>
+                                </span> {{ feature.category.title }}</h2>
+                            <p class="mt-3 mb-6">{{ feature.category.detailedDescription }}</p>
                             <button class="btn-primary">Sign up now</button>
                         </div>
                     </div>
 
                     <!-- features -->
                     <div class="flex flex-wrap w-[50%]">
-                        <template v-for="item in feature.features">
+                        <template v-for="item in feature.items">
                             <div class="w-1/2">
                                 <UiFeatureCard :feature="item" />
                             </div>
@@ -39,6 +41,10 @@
                 </div>
             </section>
         </template>
+
+        <section class="my-44 maximum-width">
+            <GetStarted />
+        </section>
     </div>
 </template>
 

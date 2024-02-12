@@ -23,7 +23,7 @@
                 <!-- sign in / sign up -->
                 <div>
                     <div class="flex gap-1">
-                        <button class="btn-primary">Sign up</button>
+                        <button class="btn-primary">Sign in</button>
 
                     </div>
                 </div>
