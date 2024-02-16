@@ -3,7 +3,7 @@
         <!-- image -->
         <div class="w-1/2">
             <div class="max-w-[100px] mx-auto">
-                <img :src="`_nuxt/assets/images/${img}`" class="w-full">
+                <img :src="`/images/${img}`" class="w-full">
             </div>
         </div>
 
