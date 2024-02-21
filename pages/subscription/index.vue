@@ -19,9 +19,9 @@
 
         <!-- subscription form -->
         <section class="maximum-width scroll-m-10">
-            <Transition>
-                <SubscriptionForm v-show="plan" :key="plan" id="form" class="pt-28" />
-            </Transition>
+            <div id="form" class="pt-28">
+                <SubscriptionForm v-show="plan" :key="plan" />
+            </div>
         </section>
 
         <!-- How it works -->
