@@ -73,7 +73,7 @@ const links: Links[] = [
     },
     {
         name: 'Subscription Plan',
-        to: '/subscription-plan'
+        to: '/subscription'
     },
     {
         name: 'Contact Us',
@@ -82,18 +82,18 @@ const links: Links[] = [
 ]
 
 const otherLinks: Links[] = [
-    {
-        name: 'Partners',
-        to: '/'
-    },
+    // {
+    //     name: 'Partners',
+    //     to: '/'
+    // },
     {
         name: 'Privacy Policy',
         to: '/features'
     },
-    {
-        name: 'Cookie Usage',
-        to: '/subscription-plan'
-    },
+    // {
+    //     name: 'Cookie Usage',
+    //     to: '/subscription'
+    // },
     {
         name: 'Terms of Use',
         to: '/contact-us'

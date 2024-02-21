@@ -1,21 +1,31 @@
-<script setup></script>
+<script setup>
+const selectedPlan = ref('')
+
+const submitDetails = () => {
+    useRouter().push('/subscription')
+}
+onMounted(() => {
+    selectedPlan.value = useRoute().query.plan
+})
+</script>
 
 <template>
     <div class="w-[600px] mx-auto">
-        <h2 class="text-center mb-5 text-lg">Skuldent is committed to providing prompt support. Once you sign up, our team
+        <h2 class="text-center mb-5 text-lg">Skuldent is committed to providing prompt support. Submit your details, our
+            team
             will
             reach out
             to assist you with
             onboarding promptly.</h2>
 
-        <form>
+        <form @submit.prevent="submitDetails">
             <!-- Name -->
             <div class=" mb-3">
                 <!-- <label class="mb-1 block">Plan:</label> -->
-                <select class="w-full ">
-                    <option>Basic Plan</option>
-                    <option>Standard Plan</option>
-                    <option>Premium Plan</option>
+                <select class="w-full" v-model="selectedPlan" disabled>
+                    <option disabled value="basic">Basic Plan</option>
+                    <option disabled value="standard">Standard Plan</option>
+                    <option disabled value="premium">Premium Plan</option>
                 </select>
             </div>
 

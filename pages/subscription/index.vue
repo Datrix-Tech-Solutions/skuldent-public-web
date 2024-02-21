@@ -18,8 +18,10 @@
         </section>
 
         <!-- subscription form -->
-        <section class="maximum-width my-28">
-            <SubscriptionForm />
+        <section class="maximum-width scroll-m-10">
+            <Transition>
+                <SubscriptionForm v-show="plan" :key="plan" id="form" class="pt-28" />
+            </Transition>
         </section>
 
         <!-- How it works -->
@@ -35,8 +37,20 @@
     </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
+definePageMeta({
+    name: 'Subscription'
+})
+const route = useRoute()
+const plan = ref('')
 
+watch(() => route.query, (newRoute) => {
+    plan.value = newRoute.plan
+})
+
+onMounted(() => {
+    plan.value = route.query.plan
+})
 </script>
 
 <style scoped></style>

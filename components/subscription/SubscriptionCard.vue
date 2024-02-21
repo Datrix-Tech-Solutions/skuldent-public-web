@@ -31,9 +31,12 @@
 
             <!-- button -->
             <div>
-                <button class="btn-primary w-full"
-                    :class="subscription?.popular ? 'bg-white text-skuldent-blue border-white' : ''">Select
-                    Plan</button>
+                <!-- <NuxtLink :to="`/subscription#form?plan=${subscription?.slug}`"> -->
+                <NuxtLink :to="{ name: 'Subscription', query: { plan: subscription?.slug }, hash: '#form' }">
+                    <button class="btn-primary w-full"
+                        :class="subscription?.popular ? 'bg-white text-skuldent-blue border-white' : ''">Select
+                        Plan</button>
+                </NuxtLink>
             </div>
         </div>
     </div>

@@ -49,8 +49,8 @@ const links: Links[] = [
         to: '/features'
     },
     {
-        name: 'Subscription Plan',
-        to: '/subscription-plan'
+        name: 'Subscription',
+        to: '/subscription'
     },
     {
         name: 'Contact Us',
