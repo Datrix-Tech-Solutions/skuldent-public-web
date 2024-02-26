@@ -13,6 +13,10 @@ export default <Partial<Config>>{
                 'skuldent-blue': '#153655',
                 'skuldent-yellow': '#ffb246',
             },
+            screens: {
+                xs: '480px',
+                mlg: '920px',
+            }
         }
     }
 }

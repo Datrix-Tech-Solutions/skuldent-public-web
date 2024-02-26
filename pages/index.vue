@@ -13,7 +13,7 @@
                 <!-- <h2 class="font-semibold text-5xl mb-4">Our Achievements</h2> -->
                 <p class="text-neutral-500">With our super powers we have reached this</p>
 
-                <div class="flex justify-center gap-10 my-10">
+                <div class="flex justify-center md:gap-10 gap-2 my-10 xs:flex-row flex-col">
                     <UiAchievementCard stat="125+" text="University" img="university.png">
                     </UiAchievementCard>
                     <UiAchievementCard stat="300+" text="School" img="school.png"></UiAchievementCard>
@@ -25,7 +25,7 @@
             <section class="my-44">
                 <div class="maximum-width mb-10">
                     <div class="text-center max-w-[500px] mx-auto">
-                        <h2 class="font-semibold text-5xl mb-4">Powerful Features</h2>
+                        <h2 class="font-semibold text-3xl md:text-5xl mb-4">Powerful Features</h2>
                         <p class="text-neutral-500">Special features which help you keep students on track and engaged
                             during
                             class
@@ -34,7 +34,7 @@
                 </div>
 
                 <div class="my- bg-blue-faded py-14">
-                    <div class="grid grid-cols-4 gap-5   maximum-width">
+                    <div class="grid xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5   maximum-width">
                         <template v-for="feature in features" :key="feature.category.title">
                             <UiFeatureCard :feature="feature.category" :clamp="true" />
                         </template>

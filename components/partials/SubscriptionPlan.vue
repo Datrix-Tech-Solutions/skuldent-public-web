@@ -1,5 +1,5 @@
 <template>
-    <div class="maximum-width flex gap-6 justify-center">
+    <div class="maximum-width flex gap-5 justify-center md:flex-row flex-col">
         <template v-for="subscription in subscriptionPlan" :key="subscription.name">
             <SubscriptionCard :subscription="subscription" />
         </template>

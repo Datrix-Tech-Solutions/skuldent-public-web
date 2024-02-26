@@ -1,6 +1,6 @@
 <template>
-    <div class="rounded-2xl border p-5 pb-8 w-[350px] min-h-[500px] bg-white"
-        :class="subscription?.popular ? ' text-white scale-105 !bg-gradient-to-b from-skuldent-blue to-cyan-600' : ''">
+    <div class="rounded-2xl border p-5 pb-8 xs:w-[350px] min-h-[500px] bg-white mx-auto md:mx-0"
+        :class="subscription?.popular ? ' text-white xl:scale-105 !bg-gradient-to-b from-skuldent-blue to-cyan-600' : ''">
         <div class="flex flex-col justify-between gap-14 h-full">
             <!-- content -->
             <div>

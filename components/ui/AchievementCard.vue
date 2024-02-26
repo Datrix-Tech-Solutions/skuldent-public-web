@@ -1,15 +1,15 @@
 <template>
-    <div class="rounded-lg border p-7 w-[300px]  flex items-center">
+    <div class="rounded-lg border md:p-7 py-4 px-2 w-[300px] mx-auto  flex items-center">
         <!-- image -->
-        <div class="w-1/2">
-            <div class="max-w-[100px] mx-auto">
+        <div class="md:w-1/2 w-[40%]">
+            <div class="md:max-w-[100px] max-w-[40px] mx-auto">
                 <img :src="`/images/${img}`" class="w-full">
             </div>
         </div>
 
         <!-- text -->
-        <div class="w-1/2">
-            <p class="font-bold text-4xl">{{ stat }}</p>
+        <div class="md:w-1/2 w-[60%]">
+            <p class="font-bold md:text-4xl text-2xl">{{ stat }}</p>
             <p>{{ text }}</p>
         </div>
 

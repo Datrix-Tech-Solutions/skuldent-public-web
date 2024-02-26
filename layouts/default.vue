@@ -1,7 +1,7 @@
 <template>
     <div class="text-skuldent-blue bg-neutral-100 font-dm-sans">
         <!-- <div v-if="$route.path !== '/'"> -->
-        <AppHeader></AppHeader>
+        <AppHeader :key="$route.path"></AppHeader>
         <!-- </div> -->
         <div class="">
             <slot></slot>

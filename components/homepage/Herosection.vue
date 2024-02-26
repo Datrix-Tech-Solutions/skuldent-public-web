@@ -8,7 +8,7 @@
                 <div class="flex py-36">
                     <!-- Text -->
                     <div class="w-4/5">
-                        <h1 class="font-bold text-8xl text-gray-20 text-white">
+                        <h1 class="font-bold text-4xl md:text-6xl lg:text-8xl text-gray-20 text-white">
                             Empower Your School with <span class="">Skuldent</span>
                         </h1>
                         <p class="font-semibold text-lg my-5 text-neutral-300">

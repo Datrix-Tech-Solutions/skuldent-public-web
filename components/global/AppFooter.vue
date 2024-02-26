@@ -1,12 +1,14 @@
 <template>
     <div class="bg-skuldent-blue text-neutral-300 py-20">
-        <div class="maximum-width flex gap-2">
-            <div class="w-1/2">
-                <img src="~/assets/images/logo-white.png" alt="" class="max-w-[300px]">
-                <p class="text-skuldent-yellow text-4xl w-[400px] my-6 leading-[50px]">
-                    Empower Your School with <span class="">Skuldent</span>
-                </p>
-                <p class="">Contact@skuldent.com</p>
+        <div class="maximum-width flex gap-10 sm:gap-5 sm:flex-row flex-col">
+            <div class="sm:w-1/2">
+                <div class="md:w-[400px] sm:w-[300px]">
+                    <img src="~/assets/images/logo-white.png" alt="" class="md:max-w-[300px] max-w-[200px]">
+                    <p class="text-skuldent-yellow text-2xl md:text-4xl md:w-[400px] my-6 md:leading-[50px]">
+                        Empower Your School with <span class="">Skuldent</span>
+                    </p>
+                    <p class="">Contact@skuldent.com</p>
+                </div>
             </div>
 
             <!-- pages -->
@@ -38,7 +40,7 @@
             </div>
 
             <!-- icons -->
-            <div>
+            <div class="flex gap-10 sm:block">
                 <div class="mb-4 hover:text-skuldent-yellow transition-colors cursor-pointer">
                     <UIcon name="i-brandico-instagram" dynamic />
                 </div>

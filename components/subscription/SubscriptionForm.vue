@@ -10,7 +10,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="w-[600px] mx-auto">
+    <div class="max-w-[600px] mx-auto">
         <h2 class="text-center mb-5 text-lg">Skuldent is committed to providing prompt support. Submit your details, our
             team
             will
@@ -30,30 +30,30 @@ onMounted(() => {
             </div>
 
             <!-- Name and  Email -->
-            <div class="flex gap-3 justify-between mb-3">
+            <div class="flex gap-3 justify-between mb-3 xs:flex-row flex-col">
                 <!-- Name -->
-                <div class="w-1/2">
+                <div class="xs:w-1/2">
                     <label for="name" class="mb-1 block">Name</label>
                     <input type="name" name="name" id="name" class="w-full" placeholder="Enter your full name" required>
 
                 </div>
                 <!-- Email -->
-                <div class="w-1/2">
+                <div class="xs:w-1/2">
                     <label for="email" class="mb-1 block">Email</label>
                     <input type="email" name="email" id="email" class="w-full" placeholder="Enter your email" required>
                 </div>
             </div>
             <!-- Name and  Email -->
-            <div class="flex gap-3 justify-between mb-3">
+            <div class="flex gap-3 justify-between mb-3  xs:flex-row flex-col">
                 <!-- Phone -->
-                <div class="w-1/2">
+                <div class="xs:w-1/2">
                     <label for="phone" class="mb-1 block">Phone number</label>
                     <input type="phone" name="phone" id="phone" class="w-full" placeholder="Enter your phone number"
                         required>
 
                 </div>
                 <!-- Instituition -->
-                <div class="w-1/2">
+                <div class="xs:w-1/2">
                     <label for="institution" class="mb-1 block">Institution</label>
                     <input type="institution" name="institution" id="institution" class="w-full"
                         placeholder="Name of your institution" required>
