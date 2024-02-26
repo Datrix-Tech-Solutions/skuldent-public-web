@@ -7,7 +7,7 @@
             <section class="maximum-width">
                 <div class="flex py-36">
                     <!-- Text -->
-                    <div class="w-4/5">
+                    <div class="md:w-4/5">
                         <h1 class="font-bold text-4xl md:text-6xl lg:text-8xl text-gray-20 text-white">
                             Empower Your School with <span class="">Skuldent</span>
                         </h1>
@@ -18,7 +18,7 @@
                     </div>
 
                     <!-- image -->
-                    <div class="w-3/5">
+                    <div class="md:w-3/5">
                         <div>
                             <!-- <img src="~/assets/images/hero-image.jpg"> -->
                         </div>
