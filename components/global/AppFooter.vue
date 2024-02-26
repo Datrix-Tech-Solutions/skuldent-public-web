@@ -59,38 +59,16 @@
 </template>
 
 <script setup lang="ts">
-interface Links {
-    name: string;
-    to: string;
-}
+import { links } from '~/data/links';
 
-const links: Links[] = [
-    {
-        name: 'Home',
-        to: '/'
-    },
-    {
-        name: 'Features',
-        to: '/features'
-    },
-    {
-        name: 'Subscription Plan',
-        to: '/subscription'
-    },
-    {
-        name: 'Contact Us',
-        to: '/contact-us'
-    },
-]
-
-const otherLinks: Links[] = [
+const otherLinks = [
     // {
     //     name: 'Partners',
     //     to: '/'
     // },
     {
         name: 'Privacy Policy',
-        to: '/features'
+        to: ''
     },
     // {
     //     name: 'Cookie Usage',
@@ -98,7 +76,7 @@ const otherLinks: Links[] = [
     // },
     {
         name: 'Terms of Use',
-        to: '/contact-us'
+        to: ''
     },
 ]
 </script>

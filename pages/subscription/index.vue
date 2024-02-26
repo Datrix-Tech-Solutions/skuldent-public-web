@@ -13,7 +13,7 @@
         </section>
 
         <!-- subscription -->
-        <section class="py-28 bg-blue-faded">
+        <section id="plans" class="py-28 bg-blue-faded scroll-m-10">
             <PartialsSubscriptionPlan />
         </section>
 
@@ -41,6 +41,13 @@
 definePageMeta({
     name: 'Subscription'
 })
+
+useHead({
+    htmlAttrs: {
+        class: 'subscription'
+    }
+})
+
 const route = useRoute()
 const plan = ref('')
 

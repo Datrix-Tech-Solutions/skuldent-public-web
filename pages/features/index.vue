@@ -26,7 +26,9 @@
                                     <UIcon :name="`i-heroicons-${feature.category.icon}`" dynamic></UIcon>
                                 </span> {{ feature.category.title }}</h2>
                             <p class="mt-3 mb-6">{{ feature.category.detailedDescription }}</p>
-                            <button class="btn-primary">Sign up now</button>
+                            <NuxtLink to="/subscription">
+                                <button class="btn-primary hover:cursor-pointer">Sign up now</button>
+                            </NuxtLink>
                         </div>
                     </div>
 

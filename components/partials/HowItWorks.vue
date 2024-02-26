@@ -7,7 +7,9 @@
                     <h2 class="text-2xl md:text-4xl font-bold ">Sign Up With Skuldent</h2>
                     <p class="text-neutral-500 my-5">Choose a subscription package and sign up to Skuldent school management
                         system</p>
-                    <button class="btn-transparent px-4">See Subscription Plan</button>
+                    <NuxtLink to="/subscription#plans">
+                        <button class="btn-transparent px-4">See Subscription Plans</button>
+                    </NuxtLink>
                 </div>
             </div>
             <div class="md:w-1/2">

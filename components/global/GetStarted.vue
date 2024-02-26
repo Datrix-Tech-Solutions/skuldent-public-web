@@ -8,7 +8,9 @@
                 they do
                 best - educating. Explore the benefits of streamlined administrative processes and enhanced
                 communication within your school community.</p>
-            <button class="btn-primary mt-5 px-4">Get Started</button>
+            <NuxtLink to="/subscription">
+                <button class="btn-primary mt-5 px-4">Get Started</button>
+            </NuxtLink>
         </div>
     </div>
 </template>

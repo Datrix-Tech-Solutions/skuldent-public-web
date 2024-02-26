@@ -14,7 +14,9 @@
                         <p class="font-semibold text-lg my-5 text-neutral-300">
                             Effortless School Management, Seamless Education Experience
                         </p>
-                        <button class="btn-primary mt-7 px-5 py-3"> Get Started Now</button>
+                        <NuxtLink to="/subscription">
+                            <button class="btn-primary mt-7 px-5 py-3"> Get Started Now</button>
+                        </NuxtLink>
                     </div>
 
                     <!-- image -->
