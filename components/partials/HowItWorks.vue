@@ -1,7 +1,7 @@
 <template>
     <div>
         <!-- Sign up -->
-        <div class="flex  justify-center items-center flex-item md:gap-0 gap-5 md:flex-row flex-col">
+        <div class="flex  justify-center items-center flex-item md:gap-0 gap-5 md:flex-row flex-col-reverse">
             <div class="md:w-1/2">
                 <div class="max-w-[500px] mx-auto px-5">
                     <h2 class="text-2xl md:text-4xl font-bold ">Sign Up With Skuldent</h2>
@@ -18,7 +18,7 @@
         </div>
 
         <!-- how to setup -->
-        <div class="flex  justify-center items-center flex-item md:flex-row-reverse md:gap-0 gap-5 flex-col mt-10">
+        <div class="flex  justify-center items-center flex-item md:flex-row-reverse md:gap-0 gap-5 flex-col-reverse mt-10">
             <div class="md:w-1/2">
                 <div class="max-w-[500px] mx-auto px-5">
                     <h2 class="text-2xl md:text-4xl font-bold ">Setup Your School</h2>
@@ -35,7 +35,7 @@
         </div>
 
         <!-- Explore features -->
-        <div class="flex  justify-center items-center flex-item md:gap-0 gap-5 md:flex-row flex-col mt-10">
+        <div class="flex  justify-center items-center flex-item md:gap-0 gap-5 md:flex-row flex-col-reverse mt-10">
             <div class="md:w-1/2">
                 <div class="max-w-[500px] mx-auto px-5">
                     <h2 class="text-2xl md:text-4xl font-bold ">Explore Exlusive Features</h2>
