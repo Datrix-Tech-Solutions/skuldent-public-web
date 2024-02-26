@@ -66,6 +66,7 @@
 import { links } from '~/data/links';
 
 const showMobileNav = ref(false)
+
 </script>
 
 

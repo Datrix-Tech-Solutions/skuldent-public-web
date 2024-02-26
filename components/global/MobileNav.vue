@@ -1,7 +1,3 @@
-<script setup>
-import { links } from '~/data/links';
-</script>
-
 <template>
     <nav class="m v-width top-0 bottom-0 right-0 fixed bg-white z-20 py-4 px-6">
         <div class="flex flex-col justify-between h-full">
@@ -34,6 +30,17 @@ import { links } from '~/data/links';
     </nav>
 </template>
 
+<script setup>
+import { links } from '~/data/links';
+
+onMounted(() => {
+    document.body.style.overflow = 'hidden'
+})
+
+onUnmounted(() => {
+    document.body.style.overflow = 'auto'
+})
+</script>
 
 <style scoped>
 .v-width {
