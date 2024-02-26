@@ -25,8 +25,7 @@
                 <!-- sign in / sign up -->
                 <div class="hidden md:block">
                     <div class="flex gap-1">
-                        <button class="btn-primary">Sign in</button>
-
+                        <a href="https://skulbook.com/auth/login" target="_blank" class="btn-primary">Sign in</a>
                     </div>
                 </div>
 

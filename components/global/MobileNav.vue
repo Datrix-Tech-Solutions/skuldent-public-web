@@ -24,7 +24,7 @@
 
             <!-- buttons -->
             <div class="flex py-3 justify-center">
-                <a href="#" class="btn-primary w-1/2 text-center">Sign in</a>
+                <a href="https://skulbook.com/auth/login" target="_blank" class="btn-primary w-1/2 text-center">Sign in</a>
             </div>
         </div>
     </nav>
