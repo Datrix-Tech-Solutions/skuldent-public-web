@@ -53,7 +53,8 @@
 
                 <!-- close button -->
                 <Transition name="close">
-                    <Icon name="heroicons:x-mark" class="inline w-12 h-12 z-30 fixed top-2 left-2 cursor-pointer text-white"
+                    <Icon name="heroicons:x-mark"
+                        class="inline w-10 h-10 z-30 fixed top-2 left-2 cursor-pointer text-white bg-skuldent-blue rounded-full p-1"
                         v-if="showMobileNav" @click="() => { showMobileNav = false }" />
                 </Transition>
             </div>
