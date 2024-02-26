@@ -42,7 +42,7 @@
             </section>
         </template>
 
-        <section class="my-44 maximum-width">
+        <section class="md:my-44 my-28 maximum-width">
             <GetStarted />
         </section>
     </div>

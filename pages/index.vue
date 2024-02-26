@@ -9,7 +9,7 @@
         <div class="">
 
             <!-- Achievements -->
-            <section class="my-44 text-center maximum-width">
+            <section class="md:my-44 my-28 text-center maximum-width">
                 <!-- <h2 class="font-semibold text-5xl mb-4">Our Achievements</h2> -->
                 <p class="text-neutral-500">With our super powers we have reached this</p>
 
@@ -22,7 +22,7 @@
             </section>
 
             <!-- Features -->
-            <section class="my-44">
+            <section class="md:my-44 my-28">
                 <div class="maximum-width mb-10">
                     <div class="text-center max-w-[500px] mx-auto">
                         <h2 class="font-semibold text-3xl md:text-5xl mb-4">Powerful Features</h2>
@@ -52,11 +52,11 @@
             </section>
 
             <!-- How it works -->
-            <section class="my-44 maximum-width">
+            <section class="md:my-44 my-28 maximum-width">
                 <PartialsHowItWorks />
             </section>
 
-            <section class="my-44 maximum-width">
+            <section class="md:my-44 my-28 maximum-width">
                 <GetStarted />
             </section>
 

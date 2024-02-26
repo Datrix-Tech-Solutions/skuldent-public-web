@@ -19,18 +19,18 @@
 
         <!-- subscription form -->
         <section class="maximum-width scroll-m-10">
-            <div id="form" :class="{ 'pt-28': plan }">
+            <div id="form" :class="{ 'md:pt-28 pt-20': plan }">
                 <SubscriptionForm v-show="plan" :key="plan" />
             </div>
         </section>
 
         <!-- How it works -->
-        <section class="my-44 maximum-width">
+        <section class="md:my-44 my-28 maximum-width">
             <PartialsHowItWorks />
         </section>
 
         <!-- FaQs -->
-        <section class="my-44 maximum-width">
+        <section class="md:my-44 my-28 maximum-width">
             <FAQ />
         </section>
 
